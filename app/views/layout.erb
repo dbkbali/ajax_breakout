@@ -18,6 +18,16 @@
   <title></title>
 </head>
 <body>
+<div id="results"></div>
+  <form action="/cards">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name='name' id='name'>
+    </div>
+      <input type="submit" id="subbutton" class="btn" />
+  </form>
+
+
   <%= yield %>
 </body>
 </html>
