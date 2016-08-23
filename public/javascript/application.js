@@ -24,13 +24,29 @@ $(document).ready(function() {
         //     "photo_url": "http://www.famousbirthdays.com/thumbnails/hinojosa-stacy-large.jpg"
         // },
   // 
-  var root = 'https://daxeel-celebinfo-v1.p.mashape.com/custom/'  // custom/{search_type}
+  var root_url = 'https://daxeel-celebinfo-v1.p.mashape.com/custom/'  // custom/{search_type}
 
   // $.getJson
 
   // var data = "tommorrow"
 
-  // $.getJSON(root, data, function (response) {
+  // $.getJSON(root_url, data, function (response) {
   //   console.log(response)
   // })
+  // 
+  // $.ajax 
+  // $.ajax({
+  //     beforeSend: function(xhr) {
+  //        xhr.setRequestHeader("X-Mashape-Key", "eeh0PJsgSwmshRhoXCukn2DX8veUp1eyGcejsnX6KKF5R6gKOy"); // Enter here your Mashape key
+  //        },
+  //     url: root_url + 'today',
+  //     method: 'GET',
+  //     dataType: 'json',
+  //     success: function(response) { 
+  //             console.log(response);
+  //         },
+  //     error: function() { alert('boo!'); }
+       
+  //   });
+
 });
